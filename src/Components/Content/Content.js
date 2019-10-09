@@ -1,8 +1,8 @@
 import React from 'react';
 
-import First from './First/First';
-import Second from './Second/Second';
-import Third from './Third/Third';
+import EC from '../ElectriCars/EC';
+import ERC from '../ElectricRacingCars/ERC';
+import ESC from '../ElectricServiceCars/ESC';
 
 
 
@@ -10,9 +10,9 @@ class Content extends React.Component {
     render () {
         return (
             <div className="container">
-                <First />
-                <Second />
-                <Third />               
+                <EC />
+                <ERC />
+                <ESC />               
             </div>
         )
     }

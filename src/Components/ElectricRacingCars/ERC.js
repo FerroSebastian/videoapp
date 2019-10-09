@@ -1,15 +1,16 @@
 import React from 'react';
+import Accordion from '../Accordion/Accordion';
 
-class Second extends React.Component {
+class ERC extends React.Component {
     render () {
         return (
-        <div className="container">
+        <div className="container mt-3 border border-info rounded mb-0 z-depth-1-half">
             <div className="row">
 
                 <div className="col-md-7 mb-r mt-3">
-                    <a href="" className="amber-text"><h5><strong>Electric Racing Cars</strong></h5></a>
+                    <a href="" className="Primary-text"><h5><strong>Electric Racing Cars</strong></h5></a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, sapiente voluptate ducimus illum amet dolorum. Animi obcaecati qui atque eum aut quos. Quaerat ut accusantium perferendis culpa corporis laudantium facere?</p>
-                    <a className="btn btn-cyan waves-effect waves-light">Read More</a>
+                    
                 </div>
 
                 <div className="col-md-5 mb-r mt-3">
@@ -20,13 +21,13 @@ class Second extends React.Component {
                         </a>
                     </div>
                 
-                </div>
-                        
+                </div>      
         
             </div>
+            <Accordion />
         </div>
         )
     }
 } 
 
-export default Second;
+export default ERC;
