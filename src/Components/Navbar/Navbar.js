@@ -1,13 +1,14 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 class Navbar extends React.Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark primary-color">
-            <a className="navbar-brand blockquote bq-light" href="">
+            <Link to="/" className="navbar-brand blockquote bq-light" >
                 <h3 className="bq-title"><strong>TFC - The Future of Cars</strong></h3>
-            </a>
+            </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
                     aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -15,23 +16,23 @@ class Navbar extends React.Component {
                 <div className="collapse navbar-collapse" id="basicExampleNav">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Home
+                            <Link to="/" className="nav-link">Home
                                 <span className="sr-only">(current)</span>
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">History</a>
+                            <Link to="/History" className="nav-link">History</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Advertising Price</a>
+                            <Link to="/Adertising" className="nav-link">Advertising Price</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">About Us</a>
                             <div className="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                                <a className="dropdown-item" href="#">Our Team</a>
-                                <a className="dropdown-item" href="#">asdasdasd</a>
-                                <a className="dropdown-item" href="#">Contact</a>
+                                <Link to="OurTeam" className="dropdown-item" href="#">Our Team</Link>
+                                <Link to="asdasdasd" className="dropdown-item" href="#">asdasdasd</Link>
+                                <Link to="Contact" className="dropdown-item" href="#">Contact</Link>
                             </div>
                         </li>
                     </ul>

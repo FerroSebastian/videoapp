@@ -25,7 +25,7 @@ class EC extends React.Component {
                     
                 
                 </div>
-                <Accordion />
+                <Accordion id="prueba"/>
             </div>
             
         )
