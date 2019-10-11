@@ -8,7 +8,7 @@ class ERC extends React.Component {
             <div className="row">
 
                 <div className="col-md-7 mb-r mt-3">
-                    <a href="" className="Primary-text"><h5><strong>Electric Racing Cars</strong></h5></a>
+                    <a className="Primary-text"><h5><strong>Electric Racing Cars</strong></h5></a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, sapiente voluptate ducimus illum amet dolorum. Animi obcaecati qui atque eum aut quos. Quaerat ut accusantium perferendis culpa corporis laudantium facere?</p>
                     
                 </div>
