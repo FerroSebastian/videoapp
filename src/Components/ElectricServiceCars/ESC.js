@@ -19,8 +19,7 @@ class ESC extends React.Component {
                     
                     <div className="col-md-7 mb-r mt-3">
                             <a href="" className="Primary-text"><h5><strong>Electric Service Vehicles</strong></h5></a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, sapiente voluptate ducimus illum amet dolorum. Animi obcaecati qui atque eum aut quos. Quaerat ut accusantium perferendis culpa corporis laudantium facere?</p>
-                            <a className="btn btn-cyan waves-effect waves-light">Read More</a>
+                            <p>La flota vehicular en la región podría triplicarse en los próximos 25 años, siendo el sector transporte el principal consumidor de energías fósiles y, por eso, generador de contaminantes del aire. La movilidad eléctrica podría contrarrestar esta situación. <br /> <br/> Es que ayuda a modernizar el transporte colectivo y que los países reduzcan sus emisiones de gases de efecto invernadero (GEI). Nuevos sistemas de propulsión alternativa, la incorporación de vehículos autónomos, nuevos servicios de movilidad, el carsharing, y hasta la incorporación de nuevos vehículos adaptados a necesidades específicas son algunas de las transformaciones que ya empiezan a ver.</p>
                         </div>
                     
                 

@@ -5,17 +5,16 @@ import ERC from '../ElectricRacingCars/ERC';
 import ESC from '../ElectricServiceCars/ESC';
 
 
-
 class Content extends React.Component {
-    render () {
+    render() {
         return (
-            <div className="container">
+            <div className="container" id="Container">
                 <EC />
                 <ERC />
-                <ESC />               
+                <ESC />
             </div>
         )
     }
-} 
+}
 
 export default Content;

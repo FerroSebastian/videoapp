@@ -10,6 +10,7 @@ import {
 import Navbar from './Components/Navbar/Navbar';
 import Content from './Components/Content/Content'
 import Footer from './Components/Footer/Footer';
+import History from './Components/History/History'
 
 
 function App() {
@@ -23,8 +24,7 @@ function App() {
             <Content />
           </Route>
           <Route path="/History">
-            {/* <History /> */}
-            <h2>afdafs</h2>
+            <History />
           </Route>
           <Route path="/Advertising">
             {/* <Advertising /> */}

@@ -8,8 +8,8 @@ class ERC extends React.Component {
             <div className="row">
 
                 <div className="col-md-7 mb-r mt-3">
-                    <a className="Primary-text"><h5><strong>Electric Racing Cars</strong></h5></a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, sapiente voluptate ducimus illum amet dolorum. Animi obcaecati qui atque eum aut quos. Quaerat ut accusantium perferendis culpa corporis laudantium facere?</p>
+                <a href="" className="primary-text"><h5><strong>Electric Rancing Cars</strong></h5></a>
+                    <p>¿Puede el espectáculo del motor ser sostenible? Imaginemos que podemos conservar todos los alicientes que hacen de la competición de coches y motos una experiencia única pero sin contaminar y atrayendo la inversión e investigación en tecnología baja en carbono: la misma adrenalina, el riesgo controlado y la velocidad… sin combustibles fósiles.</p>
                     
                 </div>
 

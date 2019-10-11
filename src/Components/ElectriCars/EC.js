@@ -19,13 +19,13 @@ class EC extends React.Component {
                     
                     <div className="col-md-7 mb-r mt-3">
                             <a href="" className="primary-text"><h5><strong>Electric Cars</strong></h5></a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, sapiente voluptate ducimus illum amet dolorum. Animi obcaecati qui atque eum aut quos. Quaerat ut accusantium perferendis culpa corporis laudantium facere?</p>
+                            <p>La venta de coches eléctricos aumenta progresivamente, o que es una buena muestra de que el mensaje acerca de que el futuro es eléctrico está calando entre los consumidores. <br/> Uno de los principales factores de tal crecimiento se encuentra en la evolución tecnológica de este tipo de vehículos y la producción de los mismos en las grandes marcas, así como en una mayor presencia de puntos de carga. </p>
                             
                         </div>
                     
                 
                 </div>
-                <Accordion id="prueba"/>
+                <Accordion />
             </div>
             
         )
