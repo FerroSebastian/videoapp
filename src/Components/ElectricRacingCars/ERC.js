@@ -24,7 +24,7 @@ class ERC extends React.Component {
                 </div>      
         
             </div>
-            <Accordion />
+            
         </div>
         )
     }

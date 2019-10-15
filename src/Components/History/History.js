@@ -1,8 +1,5 @@
 import React from 'react';
 
-import EC from '../ElectriCars/EC';
-import ERC from '../ElectricRacingCars/ERC';
-import ESC from '../ElectricServiceCars/ESC';
 
 
 class History extends React.Component {

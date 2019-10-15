@@ -8,9 +8,10 @@ import {
 } from "react-router-dom";
 
 import Navbar from './Components/Navbar/Navbar';
-import Content from './Components/Content/Content'
+import Content from './Components/Content/Content';
 import Footer from './Components/Footer/Footer';
-import History from './Components/History/History'
+import History from './Components/History/History';
+import News from './Components/News/News';
 
 
 function App() {
@@ -29,7 +30,9 @@ function App() {
           <Route path="/Advertising">
             {/* <Advertising /> */}
             <h2>afdafs</h2>
-
+          </Route>
+          <Route path="/News">
+            <News />
           </Route>
         </Switch>
         <Footer />

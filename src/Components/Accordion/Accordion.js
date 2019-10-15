@@ -1,6 +1,7 @@
 import React from 'react';
 import BrandCard from './../BrandCard/BrandCard'
 
+
 class Accordion extends React.Component {
     render() {
         return (
@@ -14,8 +15,16 @@ class Accordion extends React.Component {
                     </div>
                     <div id="collapseOne" className="collapse show" aria-labelledby="headingOne"
                         data-parent="#accordionExample">
-                        <div className="card-Group">
-                            <BrandCard />
+                        <div className="card-group ">
+                            <div className="col-sm-4">
+                                <BrandCard Logo="{VolkswagenLogo}" Brand="Volkswagen" Subtitle="Das Auto"/>
+                            </div>
+                            <div className="col-sm-4">
+                                <BrandCard ImgURL="" Brand="Volvo"/>
+                            </div>
+                            <div className="col-sm-4">
+                                <BrandCard Brand="Renault" Subtitle="Passion for life"/>
+                            </div>
                         </div>
                         <br/>
                         <hr/>

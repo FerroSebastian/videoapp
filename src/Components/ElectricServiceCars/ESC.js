@@ -24,7 +24,7 @@ class ESC extends React.Component {
                     
                 
                 </div>
-                <Accordion />
+                
             </div>
         )
     }
