@@ -25,7 +25,7 @@ class Navbar extends React.Component {
                             <Link to="/History" className="nav-link">History</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Adertising" className="nav-link">Advertising Price</Link>
+                            <Link to="/Advertising" className="nav-link">Advertising Price</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"

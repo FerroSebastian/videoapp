@@ -10,7 +10,7 @@ class BrandCard extends React.Component {
                 
                         <div className="card-group">
                             <div className="card col-sm-4">
-                                {/*this.props.ImgURL*/}
+                                
                                 <LogoVolkswagen width="100%" height="" className="mt-2 card-header"/>
                                 <div className="card-body">
                                     <h5 className="card-title">{this.props.Brand}</h5>
@@ -19,8 +19,8 @@ class BrandCard extends React.Component {
                                 </div>
                             </div>
                             <div className="card col-sm-4">
-                                      {/*this.props.ImgURL*/}
-                                      <LogoVolkswagen width="100%" height="" className="mt-2 card-header"/>
+                                      
+                                      
                                 <div className="card-body">
                                     <h5 className="card-title">{this.props.Brand}</h5>
                                     <p className="card-text">{this.props.Subtitle}</p>
@@ -28,7 +28,7 @@ class BrandCard extends React.Component {
                                 </div>
                             </div>
                             <div className="card col-sm-4">
-                                      {/*this.props.ImgURL*/}
+                                      
                                       <LogoVolkswagen width="100%" height="" className="mt-2 card-header"/>
                                 <div className="card-body">
                                     <h5 className="card-title">{this.props.Brand}</h5>

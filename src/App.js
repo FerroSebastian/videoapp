@@ -18,7 +18,7 @@ import News from './Components/News/News';
 
 function App() {
 
-  
+  var nombres = ['diego', 'hector', 'rupencio', 'guilligan y su pandilla'];
   
   return (
     <Router>
@@ -34,7 +34,12 @@ function App() {
           </Route>
           <Route path="/Advertising">
             {/* <Advertising /> */}
-            <h2>afdafs</h2>
+            <div className="App">
+                <ul>
+                  {nombres.map((item)  => ( <li>Nombre: {item}</li> ))}
+                  
+                </ul>
+            </div>
           </Route>
           <Route path="/News">
             <News />
