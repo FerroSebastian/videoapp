@@ -1,11 +1,12 @@
 import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import Searcher from './../Searcher/Searcher';
 
 class Navbar extends React.Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-dark primary-color">
+            <nav className="navbar navbar-expand-lg navbar-dark grey darken-4">
             <Link to="/" className="navbar-brand blockquote bq-light" >
                 <h3 className="bq-title"><strong>TFC - The Future of Cars</strong></h3>
             </Link>
@@ -38,7 +39,7 @@ class Navbar extends React.Component {
                     </ul>
                     <form className="form-inline">
                         <div className="md-form my-0">
-                            <input className="form-control mr-sm-2" type="text" placeholder="Search Brand" aria-label="Search"/>
+                            <input className="rounded-pill border border-light form-control mr-sm-2 text-center " type="text" placeholder="Search Brand" aria-label="Search"/>
                         </div>
                     </form>
                 </div>          

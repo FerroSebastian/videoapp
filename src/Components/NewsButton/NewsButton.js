@@ -5,7 +5,7 @@ class NewsButton extends React.Component {
     render () {
         return (
             <div>
-                <Link to="/News" type="button" className="btn btn-primary btn-rounded waves-effect">Read New</Link>
+                <Link to="/News" type="button" className="btn btn-gray btn-rounded waves-effect">Read New</Link>
                 
             </div>
         )

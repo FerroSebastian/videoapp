@@ -14,7 +14,12 @@ import History from './Components/History/History';
 import News from './Components/News/News';
 
 
+
+
 function App() {
+
+  
+  
   return (
     <Router>
       <div>
@@ -34,6 +39,7 @@ function App() {
           <Route path="/News">
             <News />
           </Route>
+          
         </Switch>
         <Footer />
       </div>

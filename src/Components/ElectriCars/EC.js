@@ -6,7 +6,7 @@ import Accordion from '../Accordion/Accordion';
 class EC extends React.Component {
     render () {
         return (
-            <div className="container mt-2 border border-info rounded mb-0 z-depth-1-half">
+            <div className="container mt-2 border border-danger rounded mb-0 z-depth-4">
                 
                 <div className="row">
 
@@ -21,7 +21,7 @@ class EC extends React.Component {
                     </div>
                     
                     <div className="col-md-7 mb-r mt-3">
-                            <a href="" className="primary-text"><h5><strong>Electric Cars</strong></h5></a>
+                            <h3 className="text-white bg-danger"><h5><strong>Electric Cars</strong></h5></h3>
                             <p>La venta de coches eléctricos aumenta progresivamente, o que es una buena muestra de que el mensaje acerca de que el futuro es eléctrico está calando entre los consumidores. <br/> Uno de los principales factores de tal crecimiento se encuentra en la evolución tecnológica de este tipo de vehículos y la producción de los mismos en las grandes marcas, así como en una mayor presencia de puntos de carga. </p>
                             
                         </div>
