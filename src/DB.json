@@ -1,0 +1,24 @@
+{
+    "Brands":[{
+            "BrandId":"1",
+            "BrandName":"Volkswagen",
+            "BrandLogo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqzUQmkGxvdtzVIbcl_wTRvncAEkxJI6YeTH6b9bRnN-q_wCGug&s",
+            "VideoUrl":"IPjvgXWA78E",
+            "BrandNews":[
+                {
+                    "NewsId":"1"
+                }
+            ]
+        },
+        {
+            "BrandId":"2",
+            "BrandName":"Volvo",
+            "BrandLogo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlTbopCC5dJOvMzGcGXDb6ECYr2KBiYLXNIV7_QtYxyisx-LTk&s"
+        },
+        {
+            "BrandId":"2",
+            "BrandName":"Renault",
+            "BrandLogo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDf8Pa14uZmpuTbalU_R12qNVGefah77IHC2DGMbk01dqqD6tq&s"
+        }
+    ]
+}

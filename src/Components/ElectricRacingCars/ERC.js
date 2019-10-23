@@ -15,8 +15,8 @@ class ERC extends React.Component {
 
                 <div className="col-md-5 mb-r mt-3">
                     <div className="view overlay hm-white-slight">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwPjndBzwgbiZtax-1L49yL_MHBY4ZSV2aZzu2cXJJ46glheQE" alt=""/>
-                        <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwPjndBzwgbiZtax-1L49yL_MHBY4ZSV2aZzu2cXJJ46glheQE" alt="" className="w-100"/>
+                        <a >
                             <div className="mask waves-effect waves-light"></div>
                         </a>
                     </div>

@@ -8,7 +8,7 @@ class Navbar extends React.Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark grey darken-4">
             <Link to="/" className="navbar-brand blockquote bq-light" >
-                <h3 className="bq-title"><strong>TFC - The Future of Cars</strong></h3>
+                <h3 className="bq-title"><strong>TFV - The Future of Vehicles</strong></h3>
             </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
                     aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">

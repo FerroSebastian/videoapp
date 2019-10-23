@@ -9,7 +9,7 @@ class ESC extends React.Component {
 
                     <div className="col-md-5 mb-r mt-3">
                         <div className="view overlay hm-white-slight">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzkmeyTyr30GeZ1QAAuTz0LL1bUTI7Elx1nQxfC3BjSQaDxpGa" alt=""/>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzkmeyTyr30GeZ1QAAuTz0LL1bUTI7Elx1nQxfC3BjSQaDxpGa" alt="" className="w-100"/>
                             <a href="">
                                 <div className="mask waves-effect waves-light"></div>
                             </a>
