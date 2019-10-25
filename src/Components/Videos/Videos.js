@@ -14,7 +14,7 @@ class VideoVW1 extends React.Component {
  
     return (
       <YouTube
-        videoId="IPjvgXWA78E"
+        videoId={this.props.video}
         opts={opts}
         onReady={this._onReady}
       />

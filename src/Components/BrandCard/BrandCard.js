@@ -14,7 +14,7 @@ class BrandCard extends React.Component {
                             <div className="text-center"><img src={value.BrandLogo} class="w-50" alt="..." /></div>
                             <div className="card-body">
                                 <h5 class="card-title text-center"><strong>{value.BrandName}</strong></h5>
-                                <div className="text-center"><NewsButton /></div>
+                                <div className="text-center"><NewsButton url={value.VideoUrl} /></div>
                             </div>
                         </div> 
                     ]

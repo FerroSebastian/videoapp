@@ -16,7 +16,7 @@ class News extends React.Component {
                                 <div className="view view-cascade overlay">
 
                                     <div className="view view-cascade overlay">
-                                        <VideoVW1 />
+                                        <VideoVW1 video={"IPjvgXWA78E"}/>
                                     </div>
 
                                     {/* <div className="card-img-top">

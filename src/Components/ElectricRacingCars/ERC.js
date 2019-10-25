@@ -1,5 +1,5 @@
 import React from 'react';
-import Accordion from '../Accordion/Accordion';
+import Accordion2 from '../Accordion2/Accordion2';
 
 class ERC extends React.Component {
     render () {
@@ -24,6 +24,7 @@ class ERC extends React.Component {
                 </div>      
         
             </div>
+            {/* <Accordion2 /> */}
             
         </div>
         )
