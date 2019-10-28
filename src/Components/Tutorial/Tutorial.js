@@ -1,9 +1,9 @@
 import React from 'react';
-import VideoVW1 from './../Videos/Videos'
+import VideoVW1 from '../Videos/Videos'
 import DB from '../../DB'
 
 
-class News extends React.Component {
+class Tutorial extends React.Component {
     render() {
 
         return (
@@ -16,7 +16,7 @@ class News extends React.Component {
                                 <div className="view view-cascade overlay">
 
                                     <div className="view view-cascade overlay">
-                                        <VideoVW1 video={"IPjvgXWA78E"}/>
+                                        <VideoVW1 video={DB.VideoUrl}/>
                                     </div>
 
                                     {/* <div className="card-img-top">
@@ -51,4 +51,4 @@ class News extends React.Component {
     }
 }
 
-export default News;
+export default Tutorial;

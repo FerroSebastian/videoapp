@@ -1,20 +1,23 @@
 import React from 'react';
-import NewsButton from '../NewsButton/NewsButton'
+import TutorialButton from '../TutorialButton/TutorialButton'
 import DB from '../../DB'
-import VideoVW1 from './../Videos/Videos'
+import VideoVW1 from '../Videos/Videos'
 
-class BrandCard extends React.Component {
+class FirstCards extends React.Component {
     render() {
         
         return (
             <div className="container card-group">
-                {DB.Brands.map(function (value, index) {
+                {DB.HTMLCSSBootstrap.map(function (value, index) {
                     return ([
                         <div className="card">
-                            <div className="text-center"><img src={value.BrandLogo} class="w-50" alt="..." /></div>
+                            <div className="text-center mt-3"><img src={value.Image} class="w-50" alt="..." /></div>
                             <div className="card-body">
-                                <h5 class="card-title text-center"><strong>{value.BrandName}</strong></h5>
-                                <div className="text-center"><NewsButton url={value.VideoUrl} /></div>
+                                <h5 class="card-title text-center"><strong>{value.Title}</strong></h5>
+                                <div className="card-text">
+                                    <p>{value.Description}</p>
+                                </div>
+                                <div className="text-center"><TutorialButton Id={value.Id} /></div>
                             </div>
                         </div> 
                     ]
@@ -35,7 +38,7 @@ class BrandCard extends React.Component {
     }
 }
 
-export default BrandCard;
+export default FirstCards;
 
 
 // render(){

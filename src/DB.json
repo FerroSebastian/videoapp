@@ -1,24 +1,61 @@
 {
-    "Brands":[{
-            "BrandId":"1",
-            "BrandName":"Volkswagen",
-            "BrandLogo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqzUQmkGxvdtzVIbcl_wTRvncAEkxJI6YeTH6b9bRnN-q_wCGug&s",
-            "VideoUrl":"IPjvgXWA78E",
-            "BrandNews":[
-                {
-                    "NewsId":"1"
-                }
-            ]
+    "JavaScript":[{
+            "Id":"1",
+            "Title":"JavaScript",
+            "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_400/v1511288824/cursos/javascript.png",
+            "VideoUrl":"RqQ1d1qEWlE",
+            "Description":"JavaScript es el lenguaje de la web. Es un lenguaje que puedes usarlo en cualquier entorno desde aplicaciones web, móviles, aplicaciones de servidor e incluso aplicaciones de escritorio."
         },
         {
-            "BrandId":"2",
-            "BrandName":"Volvo",
-            "BrandLogo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlTbopCC5dJOvMzGcGXDb6ECYr2KBiYLXNIV7_QtYxyisx-LTk&s"
+            "Id":"2",
+            "Title":"JavaScript & Local Storage",
+            "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1535504187/javascript-app-tareas.jpg",
+            "VideoUrl":"Ko_S79ZGDqI",
+            "Description":"Aprende a crear una aplicación web Frontend, utilizando tan solo Javascript, Html, y css. Además utilizaremos Bootstrap4 y la API del navegador para guardar datos, llamada LocalStorage."
         },
         {
-            "BrandId":"2",
-            "BrandName":"Renault",
-            "BrandLogo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDf8Pa14uZmpuTbalU_R12qNVGefah77IHC2DGMbk01dqqD6tq&s"
+            "Id":"3",
+            "Title":"JavaScript: Async, Await, Promise, Callback",
+            "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1543823314/async-await_wapedx.png",
+            "VideoUrl":"Q3HtXuDEy5s",
+            "Description":"Aprende una de las ultimas caracteristicas de Javascript Ecmascript6+ para el manejo de código asíncrono. En este vídeo entenderemos como js utiliza los callbacks, y las promesas."
+        },
+        {
+            "Id":"4",
+            "Title":"JavaScript orientado a objetos",
+            "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1526857380/javascript-poo-aplicacion-productos.jpg",
+            "VideoUrl":"nqre9kKFRpc",
+            "Description":"Aprende a crear una aplicación del frontend, completamente desde cero, utilizando Javascript y el paradigma de programación Orientado a Objetos."
         }
-    ]
+    ],
+    "HTMLCSSBootstrap":[{
+        "Id":"1",
+        "Title":"HTML desde cero",
+        "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1533150497/html-curso_jm7fn0.jpg",
+        "VideoUrl":"rbuYtrNUxg4",
+        "Description":"HTML es un lenguaje de etiquetas que permite la creación de paginas y sitios web y es una de las tecnologías fundamentales del desarollo web, tanto de aplicaciones Grandes como de sitios web pequeños."
+    },
+    {
+        "Id":"2",
+        "Title":"CSS Grid",
+        "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_400/v1569006437/tutorials/css-grid.jpg",
+        "VideoUrl":"QBOUSrMqlSQ",
+        "Description":"Este video es una introducción práctica a CSS Grid para principiantes. Aprenderemos las reglas básicas de CSS y veremos a traves de algunos ejemplos practicos como se usan en archivos HTML."
+    },
+    {
+        "Id":"3",
+        "Title":"Bootstrap 4",
+        "Image":"http://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1509045781/cursos/bootstrap4.jpg",
+        "VideoUrl":"PLL0TiOXBeDagsYUYFO9WMwDtuDuoGZVB9",
+        "Description":"Bootstrap 4 es el la ultima versión del Framework de CSS más popular, compuesto por clases que abarcan desde trabajar con columnas, grid, colores customizables de componentes, widgets, paneles y más."
+    },
+    {
+        "Id":"4",
+        "Title":"Sitio Web Completo: Landing Page",
+        "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1530150799/bootstrap4-landing-page.jpg",
+        "VideoUrl":"33a55MmXzbM",
+        "Description":"Aprende a desarrollar un sitio web, landing page, para poner en práctica todos tus conocimientos básicos de el framework de CSS, Bootstrap 4, además Utilizaremos Font awesome para tener iconos."
+    }
+]
+    
 }

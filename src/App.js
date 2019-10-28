@@ -11,7 +11,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Content from './Components/Content/Content';
 import Footer from './Components/Footer/Footer';
 import History from './Components/History/History';
-import News from './Components/News/News';
+import Tutorial from './Components/Tutorial/Tutorial';
 
 
 
@@ -41,8 +41,8 @@ function App() {
                 </ul>
             </div>
           </Route>
-          <Route path="/News">
-            <News />
+          <Route path="/Tutorial">
+            <Tutorial />
           </Route>
           
         </Switch>

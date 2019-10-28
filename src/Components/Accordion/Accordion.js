@@ -1,5 +1,5 @@
 import React from 'react';
-import BrandCard from './../BrandCard/BrandCard'
+import FirstCards from '../FirstCards/FirstCards'
 
 
 class Accordion extends React.Component {
@@ -9,14 +9,13 @@ class Accordion extends React.Component {
                 <div className="card z-depth-0 ">
                     <div className="card-header " id="headingOne">
                         <h5 className="mb-0">
-                            <button type="button" className=" btn btn-outline-danger btn-rounded waves-effect" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i className="fas fa-car pr-2"
-                                aria-hidden="true"></i>Info</button>
+                            <button type="button" className=" btn btn-outline-danger btn-rounded waves-effect" data-toggle="collapseOne" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Tutoriales</button>
                         </h5>
                     </div>
                     <div id="collapseOne" className="collapse show" aria-labelledby="headingOne"
                         data-parent="#accordion">
                         <div className="card-group ">
-                            <BrandCard />
+                            <FirstCards />
                         </div>
                         <br/>
                         <hr/>

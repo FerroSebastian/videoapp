@@ -1,35 +1,34 @@
-// import React from 'react';
-// import Post from './../Post/Post';
+import React from 'react';
+import SecondCards from '../SecondCards/SecondCards'
 
 
 
-// class Accordion2 extends React.Component {
-//     render() {
-//         return (
-//             <div className="accordion" id="accordion">
-//                 <div className="card z-depth-0 ">
-//                     <div className="card-header " id="headingOne">
-//                         <h5 className="mb-0">
-//                             <button type="button" className=" btn btn-outline-danger btn-rounded waves-effect" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i className="fas fa-car pr-2"
-//                                 aria-hidden="true"></i>Info</button>
-//                         </h5>
-//                     </div>
-//                     <div id="collapseOne" className="collapse show" aria-labelledby="headingOne"
-//                         data-parent="#accordion">
-//                         <div className="card-group ">
-//                             <Post />
-//                         </div>
-//                         <br/>
-//                         <hr/>
-//                     </div>
-//                 </div>
+class Accordion2 extends React.Component {
+    render() {
+        return (
+            <div className="accordion" id="accordion2">
+                <div className="card z-depth-0 ">
+                    <div className="card-header " id="headingTwo">
+                        <h5 className="mb-0">
+                            <button type="button" className=" btn btn-outline-danger btn-rounded waves-effect" data-toggle="collapseTwo" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Tutoriales</button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" className="collapse show" aria-labelledby="headingTwo"
+                        data-parent="#accordion2">
+                        <div className="card-group ">
+                            <SecondCards />
+                        </div>
+                        <br/>
+                        <hr/>
+                    </div>
+                </div>
 
-//             </div>
-//         )
-//     }
-// }
+            </div>
+        )
+    }
+}
 
-// export default Accordion2;
+export default Accordion2;
 
 
 
