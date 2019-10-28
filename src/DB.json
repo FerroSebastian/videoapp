@@ -29,33 +29,33 @@
         }
     ],
     "HTMLCSSBootstrap":[{
-        "Id":"1",
-        "Title":"HTML desde cero",
-        "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1533150497/html-curso_jm7fn0.jpg",
-        "VideoUrl":"rbuYtrNUxg4",
-        "Description":"HTML es un lenguaje de etiquetas que permite la creación de paginas y sitios web y es una de las tecnologías fundamentales del desarollo web, tanto de aplicaciones Grandes como de sitios web pequeños."
-    },
-    {
-        "Id":"2",
-        "Title":"CSS Grid",
-        "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_400/v1569006437/tutorials/css-grid.jpg",
-        "VideoUrl":"QBOUSrMqlSQ",
-        "Description":"Este video es una introducción práctica a CSS Grid para principiantes. Aprenderemos las reglas básicas de CSS y veremos a traves de algunos ejemplos practicos como se usan en archivos HTML."
-    },
-    {
-        "Id":"3",
-        "Title":"Bootstrap 4",
-        "Image":"http://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1509045781/cursos/bootstrap4.jpg",
-        "VideoUrl":"PLL0TiOXBeDagsYUYFO9WMwDtuDuoGZVB9",
-        "Description":"Bootstrap 4 es el la ultima versión del Framework de CSS más popular, compuesto por clases que abarcan desde trabajar con columnas, grid, colores customizables de componentes, widgets, paneles y más."
-    },
-    {
-        "Id":"4",
-        "Title":"Sitio Web Completo: Landing Page",
-        "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1530150799/bootstrap4-landing-page.jpg",
-        "VideoUrl":"33a55MmXzbM",
-        "Description":"Aprende a desarrollar un sitio web, landing page, para poner en práctica todos tus conocimientos básicos de el framework de CSS, Bootstrap 4, además Utilizaremos Font awesome para tener iconos."
-    }
+            "Id":"1",
+            "Title":"HTML desde cero",
+            "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1533150497/html-curso_jm7fn0.jpg",
+            "VideoUrl":"rbuYtrNUxg4",
+            "Description":"HTML es un lenguaje de etiquetas que permite la creación de paginas y sitios web y es una de las tecnologías fundamentales del desarollo web, tanto de aplicaciones Grandes como de sitios web pequeños."
+        },
+        {
+            "Id":"2",
+            "Title":"CSS Grid",
+            "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_400/v1569006437/tutorials/css-grid.jpg",
+            "VideoUrl":"QBOUSrMqlSQ",
+            "Description":"Este video es una introducción práctica a CSS Grid para principiantes. Aprenderemos las reglas básicas de CSS y veremos a traves de algunos ejemplos practicos como se usan en archivos HTML."
+        },
+        {
+            "Id":"3",
+            "Title":"Bootstrap 4",
+            "Image":"http://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1509045781/cursos/bootstrap4.jpg",
+            "VideoUrl":"PLL0TiOXBeDagsYUYFO9WMwDtuDuoGZVB9",
+            "Description":"Bootstrap 4 es el la ultima versión del Framework de CSS más popular, compuesto por clases que abarcan desde trabajar con columnas, grid, colores customizables de componentes, widgets, paneles y más."
+        },
+        {
+            "Id":"4",
+            "Title":"Sitio Web Completo: Landing Page",
+            "Image":"https://res.cloudinary.com/fazt/image/upload/c_scale,w_500/v1530150799/bootstrap4-landing-page.jpg",
+            "VideoUrl":"33a55MmXzbM",
+            "Description":"Aprende a desarrollar un sitio web, landing page, para poner en práctica todos tus conocimientos básicos de el framework de CSS, Bootstrap 4, además Utilizaremos Font awesome para tener iconos."
+        }
 ]
     
 }

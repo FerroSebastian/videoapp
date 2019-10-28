@@ -17,6 +17,7 @@ class Accordion extends React.Component {
                         <div className="card-group ">
                             <FirstCards />
                         </div>
+                        
                         <br/>
                         <hr/>
                     </div>
