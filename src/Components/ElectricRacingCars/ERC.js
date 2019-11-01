@@ -1,5 +1,5 @@
 import React from 'react';
-import Accordion2 from '../Accordion2/Accordion2';
+import AccordionTwo from '../Accordion2/Accordion2';
 
 class ERC extends React.Component {
     render () {
@@ -9,7 +9,11 @@ class ERC extends React.Component {
 
                 <div className="col-md-7 mb-r mt-3">
                 <h3 className="text-white bg-danger"><h5><strong>JavaScript</strong></h5></h3>
-                    <p>¿Puede el espectáculo del motor ser sostenible? Imaginemos que podemos conservar todos los alicientes que hacen de la competición de coches y motos una experiencia única pero sin contaminar y atrayendo la inversión e investigación en tecnología baja en carbono: la misma adrenalina, el riesgo controlado y la velocidad… sin combustibles fósiles.</p>
+                    <p>JavaScript es un lenguaje de programación que se utiliza principalmente para crear páginas web dinámicas.
+
+Una página web dinámica es aquella que incorpora efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
+
+Técnicamente, JavaScript es un lenguaje de programación interpretado, por lo que no es necesario compilar los programas para ejecutarlos. En otras palabras, los programas escritos con JavaScript se pueden probar directamente en cualquier navegador sin necesidad de procesos intermedios.</p>
                     
                 </div>
 
@@ -24,7 +28,7 @@ class ERC extends React.Component {
                 </div>      
         
             </div>
-            <Accordion2 />
+            <AccordionTwo />
             
         </div>
         )

@@ -22,7 +22,20 @@ class EC extends React.Component {
                     
                     <div className="col-md-7 mb-r mt-3">
                             <h3 className="text-white bg-danger"><h5><strong>HTML - CSS - Bootstrap</strong></h5></h3>
-                            <p>La venta de coches eléctricos aumenta progresivamente, o que es una buena muestra de que el mensaje acerca de que el futuro es eléctrico está calando entre los consumidores. <br/> Uno de los principales factores de tal crecimiento se encuentra en la evolución tecnológica de este tipo de vehículos y la producción de los mismos en las grandes marcas, así como en una mayor presencia de puntos de carga. </p>
+                            <p>HTML es el lenguaje de marcado estándar para páginas web.
+
+                                Con HTML puedes crear tu propio sitio web.
+
+                                HTML es fácil de aprender: ¡lo disfrutará! </p>
+                            <p>CSS es un lenguaje que describe el estilo de un documento HTML.
+
+                                CSS describe cómo deben mostrarse los elementos HTML.
+
+                                Este tutorial le enseñará CSS de básico a avanzado.</p>
+                            <p>Bootstrap es el marco de trabajo HTML, CSS y JavaScript más popular para desarrollar sitios web receptivos para dispositivos móviles.
+                                ¡Bootstrap es completamente gratis para descargar y usar!
+                                Abrir en Google Traductor</p>
+
                             
                         </div>
                     

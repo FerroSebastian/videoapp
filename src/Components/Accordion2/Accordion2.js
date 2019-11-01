@@ -3,7 +3,7 @@ import SecondCards from '../SecondCards/SecondCards'
 
 
 
-class Accordion2 extends React.Component {
+class AccordionTwo extends React.Component {
     render() {
         return (
             <div className="accordion" id="accordion2">
@@ -28,7 +28,7 @@ class Accordion2 extends React.Component {
     }
 }
 
-export default Accordion2;
+export default AccordionTwo;
 
 
 
